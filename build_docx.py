@@ -67,8 +67,8 @@ with open(SRC, encoding='utf-8') as f:
 body = []
 # ===== PORTADA =====
 body.append(empty(3))
-body.append(title_para("LA INTELIGENCIA ARTIFICIAL EN LA SELECCIÓN DE TUTELAS", 34, 120))
-body.append(title_para("Análisis Constitucional Procesal de la Herramienta PretorIA de la Corte Constitucional de Colombia", 28, 200))
+body.append(title_para("INTELIGENCIA ARTIFICIAL Y JUSTICIA CONSTITUCIONAL", 34, 120))
+body.append(title_para("Una evaluación de PretorIA a la luz de los principios constitucionales colombianos", 28, 200))
 body.append(empty(2))
 body.append(title_para("Ponencia para el Derecho Constitucional Procesal Colombiano", 24, 120, bold=False))
 body.append(empty(8))
@@ -172,7 +172,7 @@ settings = '''<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 core = '''<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<dc:title>La inteligencia artificial en la selección de tutelas: análisis constitucional procesal de PretorIA</dc:title>
+<dc:title>Inteligencia artificial y justicia constitucional: una evaluación de PretorIA a la luz de los principios constitucionales colombianos</dc:title>
 <dc:creator>Ponencia</dc:creator><dc:language>es-CO</dc:language></cp:coreProperties>'''
 
 with zipfile.ZipFile(OUT, 'w', zipfile.ZIP_DEFLATED) as z:
